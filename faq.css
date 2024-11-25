@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(190, 212, 191);
+    background-image: url("faq.png");
+    background-size: contain;
+}
+.headnav{
+    height: 8vh;
+    background-color: rgba(120, 125, 126, 0.89);
+
+    width: 100%;
+    color: white;
+    backdrop-filter: blur(5px);
+}
+.headnav a i{
+    color: rgb(0, 255, 255);
+    position: absolute;
+    font-size: 2rem;
+    left: 2.5vw;
+    top: 1.5vh;
+    
+}
+.headnav a i:hover::after{
+    content: '';
+    width: 6.5vw;
+    position: absolute;
+    height: .4vh;
+    bottom: -15px;
+    left: .02vw;
+    background-color: rgb(0, 122, 126);
+}
+
+.aboutcontainer{
+    position: relative;
+    height: 90vh;
+    width: 89vw;
+    margin: 4vw 4vw;
+    border-radius: 18px;
+    backdrop-filter: blur(1px);
+
+    box-shadow: 4px 4px 6px black,-4px -4px 6px rgba(44, 49, 51, 0.808);
+    background-color: rgba(21, 24, 13, 0.397);
+}
